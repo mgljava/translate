@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.github.mgljava.translate</id>
+    <name>英文翻译工具</name>
+    <vendor email="guangliang1120@gmail.com" url="http://github.com/mgljava">NoCompany</vendor>
+
+    <description><![CDATA[
+    英文翻译工具<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow icon="./icon.jpg" id="Translate" anchor="right" factoryClass="com.github.mgljava.ui.Window" />
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
